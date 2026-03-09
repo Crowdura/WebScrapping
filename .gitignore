@@ -1,0 +1,25 @@
+# Entornos virtuales
+venv/
+.env
+
+# Archivos compilados
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+*.exe
+*.dll
+*.so
+*.dylib
+
+# Binarios
+*.exe
+*.dll
+*.so
+*.dylib
+
+# Archivos de logs
+*.log
+
+# Configuración local
+.DS_Store
