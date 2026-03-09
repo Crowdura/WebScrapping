@@ -15,7 +15,7 @@ Este proyecto demuestra cómo integrar modelos de lenguaje de Ollama en aplicaci
 Clona el repositorio y crea un entorno virtual:
 
 ```bash
-git clone https://github.com/usuario/proyecto-ollama.git
+git clone https://github.com/Crowdura/WebScrapping.git
 cd proyecto-ollama
 python -m venv venv
 source venv/bin/activate   # En Linux/Mac
