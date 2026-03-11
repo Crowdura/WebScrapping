@@ -105,7 +105,7 @@ class ScreenPrin(custoM.CTk):
         ruta_base.mkdir(parents=True, exist_ok=True)
         lv_rutWrit = str(ruta_base) + "\\resultados.csv"
         lo_df.write_csv(lv_rutWrit)
-        lv_context = f"Contxto español. Validar cuales no se tenga rating. Resume los resultados obtenidos. Validar cual tiene mejor precio calidad. Cuando se haga una referencia hacer uso de la lista datosLinkComp para la obtención del link: {lo_df.head(10).to_dicts()}"
+        lv_context = f"Contexto español. Validar cuales no se tenga rating. Resume los resultados obtenidos. Validar cual tiene mejor precio calidad. Cuando se haga una referencia hacer uso de la lista datosLinkComp para la obtención del link: {lo_df.head(4).to_dicts()}"
         lo_ollam = ModelOllama(url="http://localhost:11434/api/generate", context=lv_context, typeCon='request', modelOllama=self._lo_mainDelModel.get())
         lo_ollam.wrArchi(dir=self.ruta)
         return

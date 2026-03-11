@@ -87,7 +87,7 @@ class WebScrapping:
         self.lo_browser.close()
         self.lo_playwright.stop()
         return
-    def getDf(self):
+    def getDf(self) -> pl.DataFrame:
         return self.__df
 
     
